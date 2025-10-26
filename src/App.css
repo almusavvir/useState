@@ -4,13 +4,17 @@
 
 button {
   flex-direction: row;
-  align-items: center;
   background-color: aquamarine;
   border: none;
   border-radius: 1rem;
+  width: 10%;
   padding: 5px;
-  margin: 1rem;
   transition: background-color 0.3s ease;
+}
+.btncontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 button:hover {
@@ -21,8 +25,8 @@ button:hover {
 .header {
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   background-color: lightgray;
-  width: 45%;
   margin: 10px;
   padding: 1rem;
   border-radius: 2px;

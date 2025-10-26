@@ -19,8 +19,11 @@ function App() {
     <>
       <div className="header">
         <h1>The value of x is {x}</h1>
-      <button className='btn' onClick={subtractx}>Click to Subtract</button>
-      <button className='btn' onClick={addx}>Click to Add</button>
+        <div className="btncontainer">
+               <button className='btn' onClick={subtractx}>Click to Subtract</button>
+                <button className='btn' onClick={addx}>Click to Add</button>
+        </div>
+ 
       <p>
         Since React reloades the entire component if there is any change in code, storing persistent data becomes an issue. <br />
         useState hook of React comes to the rescue.
