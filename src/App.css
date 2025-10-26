@@ -1,0 +1,30 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+  flex-direction: row;
+  align-items: center;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 1rem;
+  padding: 5px;
+  margin: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: teal;
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  width: 45%;
+  margin: 10px;
+  padding: 1rem;
+  border-radius: 2px;
+  overflow: scroll;
+}
